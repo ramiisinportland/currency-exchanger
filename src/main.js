@@ -1,6 +1,12 @@
 import $ from 'jquery'
 import 'bootstrap'
-import 'bootstrap/src/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import './css/styles.css'
 
-$("section").text("TEST TEXT INPUT")
+function getElements(response) {
+  if (response.meta.code === 200) {
+    $("#show-result").text(response)
+  } else {
+    $('.showErrors').text(`There was an error: ${response.status}`);
+  }
+}
