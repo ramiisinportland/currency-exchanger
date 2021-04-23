@@ -1,7 +1,7 @@
 {
   "name": "template_wp_eslint_jest",
   "version": "1.0.0",
-  "description": "---",
+  "description": "Currency Eccange Application",
   "main": "src/main.js",
   "scripts": {
     "test": "jest --coverage",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Usarneme/template_wp_eslint_jest"
   },
-  "author": "Usarneme",
+  "author": "Rami Ahmed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Usarneme/template_wp_eslint_jest/issues"
