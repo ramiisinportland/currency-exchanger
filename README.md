@@ -1,5 +1,5 @@
 # PROJECT NAME
-## By Usarneme/Tom
+## By Usarneme/Rami
 
 ---
 
@@ -33,26 +33,7 @@ This project is a web application that DESCRIPTION
 ---
 ### Known Issues:
 1. NO KNOWN ISSUES
-2. Please open a pull request if you have any issues!
+
 ---
 ### Test Suite/Specification
 
-> See also [the Jest Test File](TESTSURL) for Jest Test Suite which includes 14 passing tests. View Test Results from Project Directory by Running `yarn run test` or if you prefer npm `npm run test`
-
-```
-Describe: TESTS
-
-```
----
-### License is GPLv3 and I make no claim to copyright.
-<br />
-
-> You can't steal what is freely given. Enjoy!
-
-<br />
-<br />
-<br />
-<br />
-<p align="center">
-  <small>Made with ❤️ in Portland, Oregon. </small>
-</p>
