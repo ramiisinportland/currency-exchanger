@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <title>Currency Exchanger</title>
-</head>
-<body>
-  <section class="main">
-    <div class="container">
-      <h1 class= "display-3 text-center">Currency Exchanger</h1>
-      <div class="row">
-        <div class="col-12 text-center">
-          <form action=""></form>
-            <select name="currancyOne" id="currancyOne">
-              <option value="AED">AED</option>
-              <option value="AFN">AFN</option>
-              <option value="ALL">ALL</option>
-              <option value="AMD">AMD</option>
-              <option value="ANG">ANG</option>
-              <option value="AOA">AOA</option>
+  <head>
+    <title>Currency Exchanger</title>
+  </head>
+  <body>
+    <div>
+      <form class="exchange">
+        <div class="check-form">
+          <h1>Currency Exchanger</h1>
+          <div>
+            <label for="usDollar">US dollars amount:</label>
+            <input type="text" id="usDollar">
+          </div>
+          <div>
+            <label for="typeOfCurrency">Which currency to exchange: </label>
+            <select id="typeOfCurrency">
+              <option id="AED">Emirati Dirham</option>
+              <option id="AZN">Azerbaijan Manats</option>
+              <option id="EUR">EURO</option>
+              <option id="GBP">British pound</option>
+              <option id="MXN">Mexican Peso</option>
             </select>
           </div>
-      </div>
+        </div>
+        <button type="submit" class="btn" id="convert">Exhange Currency</button>
+        <div class="show">
+          <p id="showExchange"></p>
+        </div>
+        <div>
+          <p id="showError"></p>
+          <p id="error">Try one more time.</p>
+        </div>
+        <p id="isNotNumber"></p>
+      </form>
     </div>
- </section>
-</body>
+  </body>
 </html>
-
-
