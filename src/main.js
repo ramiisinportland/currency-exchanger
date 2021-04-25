@@ -41,7 +41,7 @@ function britishPound(response, dollarAmount) {
     let exchange = (dollarAmount * exchangeRate).toFixed(2);
     $("#showRate").text(`${exchange} British pound`);
   } else {
-    $('#showError').text(`There was an error: ${response.message}`);
+    $('#showError').text(`Something Went Wrong: ${response.message}`);
   }
 }
 
