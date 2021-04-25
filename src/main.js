@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './css/styles.css'
 import CurrencyService from './currencyService.js';
 
+//************* euro ******************
 function emiratiDirham(response, dollarAmount) {
   if (response) {
     let exchangeRate = response.conversion_rates.AED
@@ -13,7 +14,7 @@ function emiratiDirham(response, dollarAmount) {
     $('#showError').text(`Something Went Wrong: ${response.message}`);
   }
 }
-
+//************* azerbaijanManats ******************
 function azerbaijanManats(response, dollarAmount) {
   if (response) {
     let exchangeRate = response.conversion_rates.AZN
@@ -23,7 +24,7 @@ function azerbaijanManats(response, dollarAmount) {
     $('#showError').text(`Something Went Wrong: ${response.message}`);
   }
 }
-
+//************* euro ******************
 function euro(response, dollarAmount) {
   if (response) {
     let exchangeRate = response.conversion_rates.EUR
@@ -33,8 +34,7 @@ function euro(response, dollarAmount) {
     $('#showError').text(`Something Went Wrong: ${response.message}`);
   }
 }
-
-
+//************* britishPound ******************
 function britishPound(response, dollarAmount) {
   if (response) {
     let exchangeRate = response.conversion_rates.GBP
@@ -44,7 +44,7 @@ function britishPound(response, dollarAmount) {
     $('#showError').text(`Something Went Wrong: ${response.message}`);
   }
 }
-
+//************* mexicanPeso ******************
 function mexicanPeso(response, dollarAmount) {
   if (response) {
     let exchangeRate = response.conversion_rates.MXN
