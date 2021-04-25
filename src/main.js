@@ -2,7 +2,7 @@ import $ from 'jquery'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import './css/styles.css'
-import CurrencyService from './services/currency-exchange';
+import CurrencyService from './services/currencyService';
 
 function getElements(response) {
   if (response.meta.code === 200) {
